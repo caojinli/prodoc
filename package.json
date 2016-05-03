@@ -1,7 +1,7 @@
 {
   "name": "prodoc",
   "version": "0.0.1",
-  "description": "Get started with React, Redux, and React-Router!",
+  "description": "The system is based on react-redux-router of github",
   "main": "index.js",
   "engines": {
     "node": ">=4.2.0",
@@ -21,7 +21,7 @@
     "deploy": "better-npm-run deploy",
     "flow:check": "babel-node bin/flow-check",
     "codecov": "cat coverage/*/lcov.info | codecov"
-  },
+  ,
   "betterScripts": {
     "compile": {
       "command": "babel-node bin/compile",

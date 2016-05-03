@@ -1,6 +1,6 @@
 {
-  "name": "react-redux-starter-kit",
-  "version": "2.0.0-alpha.1",
+  "name": "prodoc",
+  "version": "0.0.1",
   "description": "Get started with React, Redux, and React-Router!",
   "main": "index.js",
   "engines": {
@@ -76,7 +76,7 @@
     "node-fetch": "^1.5.1",
     "react": "^0.14.8",
     "react-dom": "^0.14.0",
-    "react-redux": "^4.0.0", 
+    "react-redux": "^4.0.0",
     "react-router": "^2.0.0",
     "react-router-redux": "^4.0.0",
     "react-tap-event-plugin": "^0.2.2",
@@ -153,5 +153,18 @@
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0",
     "yargs": "^4.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/davezuko/react-redux-starter-kit/issues"
+  },
+  "homepage": "https://github.com/davezuko/react-redux-starter-kit#readme",
+  "bin": {
+    "prodoc": "compile.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [
+    "ly-prodoc"
+  ]
 }
